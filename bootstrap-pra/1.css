@@ -1,0 +1,10 @@
+.wrapper {
+  .make-row();
+}
+.content-main {
+  .make-sm-column(3);
+}
+.content-secondary {
+  .make-sm-column(3);
+  .make-sm-column-offset(1);
+}
