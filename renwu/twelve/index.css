@@ -1,0 +1,53 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+th{
+	color: #fff;
+	background-color: #000;
+}
+.red{
+	color: #f00;
+}
+.black{
+	color: black;
+}
+tr:nth-child(odd){
+	background-color: #ccc;
+}
+tr:nth-child(even){
+	background-color: #fff;
+}
+.input{
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.input:focus{
+	width: 300px;
+	border:3px solid blue;
+}
+.rect{
+	width: 400px;
+	height: 200px;
+	background-color: green;
+}
+.btn{
+	width: 200px;
+	height: 20px;
+	padding-top: 180px;
+	padding-left: 250px;
+}
+button{
+	width: 40px;
+	height: 20px;
+	margin-left: 2px;
+}
+.btn:nth-child(1):hover{
+	background-color: red;
+}
+/*.btn:nth-child(2):hover{
+	background-color: blue;
+}
+.btn:nth-child(3):hover{
+	background-color: green;
+}*/
